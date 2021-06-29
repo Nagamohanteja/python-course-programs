@@ -1,0 +1,12 @@
+n=int(input())
+i=1
+sum=0
+count=0
+while(True):
+   print(sum,'+',i,'=',sum+i)
+   if(count==n):
+       break
+   sum=sum+i
+   i=i+2
+   count=count+1
+print(sum)
